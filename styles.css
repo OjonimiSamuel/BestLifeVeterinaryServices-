@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1, footer h5 {
+    margin: 0;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('path/to/your/image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* About Page */
+.about {
+    padding: 40px 0;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Donation Page */
+.donation {
+    padding: 40px 0;
+}
+
+.donation h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.donation form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation form .form-group {
+    margin-bottom: 15px;
+}
+
+.donation form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.donation form input, 
+.donation form textarea, 
+.donation form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.donation form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.donation form button:hover {
+    background-color: #0056b3;
+}
+
+/* Home Page */
+.home {
+    padding: 40px 0;
+}
+
+.home h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.home p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.home ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #e9ecef;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+}
+
+footer p, 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
